@@ -32,7 +32,7 @@
         $mail->setFrom('jroguzmanweb@gmail.com', 'Jessica Romero Web');
         $mail->AddReplyTo('jroguzmanweb@gmail.com', 'Reply to name');
         $mail->addAddress('jalexrg@hotmail.com');
-        $mail->addCC('camch9000@gmail.com');
+        $mail->addCC('toctoccarlitos@gmail.com');
         $mail->Subject = "(JROGUZMAN.COM) - " . $nombre ." ". $apellido;
 
         $mail->Body = '<!DOCTYPE html>
