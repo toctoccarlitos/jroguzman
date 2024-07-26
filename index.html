@@ -1,6 +1,6 @@
 
 <!-- Page Title--><!DOCTYPE html>
-<html class="wide wow-animation" lang="en">
+<html class="wide wow-animation" lang="es">
   <head>
     <meta charset="utf-8">
     <title>Jessica Romero | Asesora de Belleza y Cuidado de la Piel en España</title>
@@ -9,14 +9,23 @@
     <meta name="format-detection" content="telephone=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="canonical" href="https://www.jroguzman.com/">
-    <link rel="icon" href="images/icon-v2.webp" type="image/x-icon">
+
+    <link rel="manifest" href="/site.webmanifest">
+
+    <link rel="shortcut icon" href="/images/icons/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/icons/favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="/images/icons/favicon.ico">
+    <link rel="icon" type="image/png" sizes="192x192" href="/images/icons/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/images/icons/android-chrome-512x512.png">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.jroguzman.com/">
     <meta property="og:title" content="Jessica Romero | Asesora de Belleza y Cuidado de la Piel">
     <meta property="og:description" content="Descubre productos veganos y cruelty-free para el cuidado de tu piel y cabello. Asesoría personalizada gratuita.">
-    <meta property="og:image" content="https://www.jroguzman.com/images/icon-v2.webp">
+    <meta property="og:image" content="https://www.jroguzman.com/images/icons/android-chrome-512x512.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
@@ -26,7 +35,7 @@
     <meta property="twitter:image" content="https://www.jroguzman.com/images/twitter-image.jpg">
 
     <!-- Stylesheets-->
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato:300i,400,400i,700%7CMontserrat:400,500,600,700%7CPlayfair+Display:400,700,700i%7COswald:400,700,700i">
+    <!-- <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato:300i,400,400i,700%7CMontserrat:400,500,600,700%7CPlayfair+Display:400,700,700i%7COswald:400,700,700i"> -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
@@ -56,8 +65,9 @@
                   <div class="rd-navbar-brand">
                     <!--Brand-->
                     <a class="brand" href="index.html">
-                      <img class="brand-logo-dark" src="images/Logo-Jessica.webp" alt="" width="380" height="58"/>
-                      <img class="brand-logo-light" src="images/Logo-Jessica.webp" alt="" width="380" height="58"/></a>
+                      <img class="brand-logo-dark" src="images/Logo-Jessica-belleza.webp" alt=""/>
+                      <img class="brand-logo-light" src="images/Logo-Jessica-belleza.webp" alt=""/>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -68,15 +78,20 @@
       <!-- Swiper-->
       <section class="section swiper-container swiper-slider swiper-slider-1" data-loop="false" data-autoplay="5500" data-simulate-touch="false" data-slide-effect="fade">
         <div class="swiper-wrapper">
-          <div class="swiper-slide" data-slide-bg="images/Fondo-jroguzman.webp">
+          <div class="swiper-slide" style="background-image: url('images/Banner-belleza.webp');">
+            <div class="overlay"></div>
             <div class="swiper-slide-caption section-md">
               <div class="container">
-                <div class="row">
-                  <div class="col-sm-10 col-lg-8 col-xl-7">
-                    <h1 class="heading-decorate" data-caption-animate="fadeInUp" data-caption-delay="100"><span class="text-primary" style="color: white !important;">Jessica Romero</span> <br><span class="divider"></span>Tu piel, tu prioridad
-                    </h1>
-                    <p style="color:black; font-size: 1.3em;" data-caption-animate="fadeInUp" data-caption-delay="250"><strong>¿Sabías que tu piel es el órgano más grande de tu cuerpo?</strong> Merece un cuidado excepcional, y estoy aquí para ayudarte. Soy Jessica Romero, experta en belleza y embajadora certificada de productos antienvejecimiento para piel, cuero cabelludo y cabello. Mi misión es transformar tu rutina de cuidado personal con soluciones personalizadas y efectivas. Descubre conmigo cómo lograr una piel radiante y un cabello saludable, porque tu belleza merece lo mejor.</p>
-                    <!-- <a class="button button-default-outline" href="#" data-caption-animate="fadeInUp" data-caption-delay="450">Book Now</a> -->
+                <div class="row justify-content-center">
+                  <div class="col-12 text-center">
+                    <div class="content-box">
+                      <h1 class="heading-decorate" data-caption-animate="fadeInUp" data-caption-delay="100">
+                        ...Más que belleza, un estilo de vida...
+                      </h1>
+                      <!-- <p class="subtitle" data-caption-animate="fadeInUp" data-caption-delay="250">
+                        ...Más que belleza, un estilo de vida...
+                      </p> -->
+                    </div>
                   </div>
                 </div>
               </div>
@@ -342,6 +357,14 @@
     <!-- Javascript-->
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "url": "https://www.jroguzman.com",
+        "logo": "https://www.jroguzman.com/images/icons/favicon.ico"
+      }
+      </script>
     <!-- coded by houdini-->
   </body>
 </html>
